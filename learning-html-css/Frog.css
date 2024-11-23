@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.contianer {
+    height: 800px;
+    width: 1000px;
+    background-color: #fdf19d;
+    position: relative;
+}
+
+.frogright {
+    height: 200px;
+    width: 140px;
+    background-color: #467a27;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    left: 28%;
+    rotate: 140deg;
+}
+
+.foot3 {
+    height: 40px;
+    width: 80px;
+    background: #457a27;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    bottom: 12%;
+    left: 28%;
+}
+
+.frogleft {
+    height: 200px;
+    width: 140px;
+    background-color: #467a27;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 27%;
+    rotate: 220deg;
+}
+
+.foot4 {
+    height: 40px;
+    width: 80px;
+    background: #457a27;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    bottom: 12%;
+    right: 27%;
+}
+
+.frogbody {
+    height: 300px;
+    width: 300px;
+    background-color: #8ebc01;
+    border-radius: 50% 50% 10% 10%;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
+
+    .frogstomach {
+        height: 60%;
+        width: 70%;
+        background-color: #c1d118;
+        border-radius: 50% 50% 0 0;
+        position: absolute;
+        bottom: 0;
+        left: 45px;
+    }
+
+}
+
+.foot1 {
+    height: 80px;
+    width: 120px;
+    background-color: #8dbc00;
+    border-radius: 0 40px 0 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+
+}
+
+.foot2 {
+    height: 80px;
+    width: 120px;
+    background-color: #8dbc00;
+    border-radius: 40px 0px 40px 0px;
+    position: absolute;
+    bottom: 10%;
+    right: 35%;
+
+}
+
+
+
+.face {
+    height: 300px;
+    width: 400px;
+    background-color: #8fbb04;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+
+    .mouth {
+        height: 20px;
+        width: 350px;
+        border-radius: 50px;
+        background-color: #477929;
+        position: absolute;
+        top: 45%;
+        left: 6%;
+        z-index: 5;
+    }
+
+    .jaw {
+        height: 155px;
+        width: 300px;
+        background-color: #c1d118;
+        border-radius: 0 0 150px 150px;
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+.EYE {
+    height: 150px;
+    width: 150px;
+    background-color: #90bc00;
+    border-radius: 50%;
+}
+
+.eyeright {
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+
+.eyeleft {
+    position: absolute;
+    top: 10%;
+    right: 33%;
+}
+
+.eyeballwhite {
+    height: 120px;
+    width: 120px;
+    background-color: #fcfefd;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.eyeballblack {
+    height: 80px;
+    width: 80px;
+    background-color: #234006;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.tongue {
+    height: 300px;
+    width: 20px;
+    background-color: #f07a76;
+    rotate: -40deg;
+    position: absolute;
+    left: 35%;
+    top: 3%;
+}
+.e{
+    height: 25px;
+    width: 25px;
+    background-color: #000300;
+    border-radius: 50%;
+    position: absolute;
+    top: 6%;
+    left: 25%;
+}
+.eright{
+    height: 20px;
+    width: 20px;
+    background-color: #a1a29f;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: 25%;
+}
+.eleft{
+    height: 20px;
+    width: 20px;
+    background-color: #a1a29f;
+    border-radius: 50%;
+    position: absolute;
+    top: 6%;
+    left: 23.5%;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body{
+            background: rgb(4, 115, 179);
+            color: white;
+        }
+        .inline-block{
+            display: inline-block;
+        }
+        div{
+            padding: 5px 0;
+        }
+        .form{
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .reset{
+            background: rgb(230, 26, 26);
+            color: aliceblue;
+            padding: 3px 6px ;
+        }
+        .submit{
+            background: rgb(33, 203, 33);
+            color: aliceblue;
+            padding: 3px 6px ;
+        }
+        .heading{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" class="form">
+        <h1 class="heading">Application Form</h1>
+        <div class="inline-block">
+            <div>
+                <label for="firstname">First Name :</label>
+                <input type="text" placeholder="firstname" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="dateofbirth">Date Of birth :</label>
+                <input type="date" name="dateofbirth" id="dateofbirth">
+            </div>
+            <div>
+                <label for="gender">Gender :</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+         
+        <div class="inline-block">
+            <div >
+                <label for="lastname">Lastname :</label>
+                <input type="text" placeholder="lastname" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" name="age" id="age" placeholder="age">
+            </div>
+            <div>
+                <label for="email">Email Address :</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address">
+            </div>
+        </div>
+        <div>
+            <label >Positions Available :</label>
+            <input type="radio" name="choosedeveloper" value="Junior Developer"><span>Junior Developer</span>
+            <input type="radio" name="choosedeveloper" value="Midlevel Developer"><span>Mid-level Developer</span>
+            <input type="radio" name="choosedeveloper" value="Senior Developer"><span >Senior Developer</span>
+        </div>
+        <div>
+            <label >Programming languages :</label>
+            <input type="checkbox" name="whichlanguage" value="java" ><span>Java</span>
+            <input type="checkbox" name="whichlanguage" value="Javascript" ><span>Javascript</span>
+            <input type="checkbox" name="whichlanguage" value="Python"><span>Python</span>
+        </div>
+        <div>
+            <div class="inline-block">
+                <label for="password">Password :</label>
+                <input type="password" placeholder="password" name="password" id="password">
+            </div>
+            <div class="inline-block">
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="confirmpassword" name="confirmpassword" id="confirmpassword" placeholder="confirm password">
+            </div>
+            <div>
+                <input class="submit" type="submit">
+                <input class="reset" type="reset">
+            </div>
+        </div>
+        
+    </form>
+    
+</body>
+</html>

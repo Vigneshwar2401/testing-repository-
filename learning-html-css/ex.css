@@ -1,0 +1,13 @@
+body {
+  background-image: url(https://as1.ftcdn.net/v2/jpg/02/00/04/68/1000_F_200046800_YUbZhgIVR6lOwSa66UmUNmQnx7eve952.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+.name {
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: ;
+}

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    p{
+        text-align: center;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        margin-top: 1px;
+    }
+}
+div{
+    display: inline-block;
+}
+.armenia{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient( red 0% 33%,blue 33% 66%,orange 66% 100%);
+    margin-top: 50px;
+}
+
+.belgium{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(90deg, black 0% 33%,yellow 33% 66%,red 66% 100%);  
+}
+.germany{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient( black 0% 33%,red 33% 66%,yellow 66% 100%);
+}
+.italy{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(90deg, green 0% 33%,white 33% 66%,red 66% 100%);
+}
+
+.japan{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .jap{
+        background-color: red;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+.netherlands{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(red 0% 33%,white 33% 66%,blue 66% 100%);
+}
+
+.poland{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(white 0% 50%,red 50% 100%);
+
+}
+.russia{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(white 0% 33%,blue 33% 66%,red 66% 100%);
+}
+.india{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(orange 0% 33%,white 33% 66%,green 66% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        background-color: darkviolet;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+}

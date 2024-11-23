@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .contianer {
+        height: 800px;
+        width: 800px;
+        background: #293c7e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .headphone1 {
+        height: 500px;
+        width: 450px;
+        background: #7093cb;
+        border-radius: 50% 50% 10% 10%;
+        position: relative;
+      }
+      .headphone2 {
+        height: 450px;
+        width: 350px;
+        background: #293c7e;
+        border-radius: 50% 50% 0% 0%;
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+      }
+      .rightspeker {
+        height: 200px;
+        width: 150px;
+        background: #6e91c9;
+        position: absolute;
+        border-radius: 0% 30% 50% 50%;
+        bottom: -10%;
+        left: -1px;
+      }
+      .leftspeker {
+        height: 200px;
+        width: 150px;
+        background: #6e91c9;
+        position: absolute;
+        border-radius: 30% 0% 50% 50%;
+        bottom: -10%;
+        right: -1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="headphone1">
+        <div class="headphone2"></div>
+        <div class="rightspeker"></div>
+        <div class="leftspeker"></div>
+      </div>
+    </div>
+  </body>
+</html>

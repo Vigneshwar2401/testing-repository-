@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    margin: 10px;
+    h3{
+        background-color: chartreuse;
+        color: #ffff;
+    }
+}
+.continer{
+    height: 620px;
+    width:1000px;
+    background-color: #ffff;
+    border: 1px solid;
+    
+}
+
+
+.box1{
+height: 600px;
+width: 300px;
+background:linear-gradient(180deg, rgb(255, 0, 111), rgb(0, 185, 247));
+}
+.box2{
+    height: 600px;
+width: 300px;
+background:linear-gradient(180deg, rgb(14, 152, 194), rgb(247, 165, 0));
+}
+.box3{
+    height: 600px;
+width: 300px;
+background:linear-gradient(180deg, rgb(255, 0, 0), rgb(0, 247, 95));
+}
+.continer2{
+    height: 500px;
+    width: 500px;
+    background:radial-gradient(blue 05%, red 70%) ;
+    display: inline-block;
+    border: 1px solid;
+}
+.continer3{
+    height: 500px;
+    width: 500px;
+    background:radial-gradient(blue 30%, red 70%) ;
+    display: inline-block;
+    border: 1px solid;
+  
+}
+
+.continer4{
+height: 800px;
+width: 800px;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+display: inline-block;
+}
+.radius2{
+height: 800px;
+width: 800px;
+background:radial-gradient(white 0%,rgb(33, 196, 225) 10%, rgb(208, 0, 250)15% 25%,yellow 30% 50%,red 55%  60%,white 80% 100%);
+}
+.continer5{
+    height: 800px;
+    width: 800px;
+    border: 1px solid;
+    background:repeating-radial-gradient(red 60%,blue 80%);
+    display: inline-block;
+}
+.continer6{
+height: 600px;
+width: 600px;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+.radius4{
+    height: 500px;
+    width: 500px;
+    background: conic-gradient(rgb(1, 183, 255),rgb(68, 208, 68),yellow,red,violet,blue,rgb(0, 183, 255));
+    border-radius: 50%;
+}
+}
+
+

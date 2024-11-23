@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frag</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contianer{
+    height: 600px;
+    width: 800px;
+    background-color: #293462;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frog{
+    height: 300px;
+    width: 400px;
+    background:radial-gradient(circle at 200px -10px,#fd5f54 230px,#A64942 0px);
+    border-radius:45% 45% 35% 35%;
+    position: relative;
+    
+}
+.Eye{
+    height: 100px;
+    width: 100px;
+    background-color: #fd5f54;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+        right: 15%;
+        top: -20%;
+    }
+    .left{
+        left: 15%;
+        top: -20%;
+    }
+.ball{
+    height: 70px;
+    width: 70px;
+    background:radial-gradient(#26335f 0% 20%,#fef1c4 20% 100%);
+    border-radius: 50%;
+}
+.Rightnose{
+    height: 20px;
+    width: 20px;
+    background-color: #2a3263;
+    border-radius: 50%; 
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+}
+.Leftnose{
+    height: 20px;
+    width: 20px;
+    background-color: #2a3263;
+    border-radius: 50%; 
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="contianer">
+
+<div class="frog">
+    <div class="right Eye">
+        <div class="RightEye ball"></div>
+    </div>
+    <div class="left Eye">
+        <div class="LeftEye ball"></div>
+    </div>
+    <div class="Rightnose"></div>
+    <div class="Leftnose"></div>
+</div>
+    </div>
+</body>
+</html>
