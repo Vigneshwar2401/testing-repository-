@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image task</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100wh;
+            background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            position: relative;
+        }
+
+        .toplayer {
+            background-color: #2626269d;
+            height: 100%;
+            width: 100%;
+        }
+
+        .explore {
+            font-size: 2em;
+            position: absolute;
+            top: 30%;
+            left: 33%;
+            transform: translate(0%, 40%);
+        }
+
+        .line {
+            height: 5px;
+            width: 100px;
+            background-color: #da1c4b;
+            border-radius: 2px;
+            position: absolute;
+            top: 42%;
+            left: 43%;
+            transform: translate(0%, -50%);
+        }
+
+        .gift {
+            font-size: 4em;
+            font-weight: bolder;
+            position: absolute;
+            top: 40%;
+            transform: translate(75%, 30%);
+        }
+
+        button {
+            background-color: #da1c4b;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            position: absolute;
+            top: 55%;
+            left: 43%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="explore">Explore the Colourful World</div>
+        <div class="line"></div>
+        <div class="gift">A Wonderful Gift</div>
+        <button>LEARN MORE</button>
+        <div class="toplayer"></div>
+    </div>
+
+
+</body>
+
+</html>
