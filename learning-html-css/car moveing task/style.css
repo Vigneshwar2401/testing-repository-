@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.top {
+    height: 70%;
+    background-color: #fffef0;
+    position: relative;
+}
+
+.mount {
+    height: 50%;
+    width: 20%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #49403c;
+    bottom: 0;
+    position: absolute;
+}
+
+.mountain1 {
+    width: 30%;
+}
+
+.mountain2 {
+    height: 30%;
+    left: 25%;
+}
+
+.mountain3 {
+    height: 80%;
+    width: 50%;
+    left: 40%;
+}
+
+.mountain4 {
+    height: 60%;
+    width: 50%;
+    left: 60%;
+}
+
+.sun {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: #FDB813;
+    box-shadow: 5px 5px 10px #f8ae02, -5px -5px 10px #f8ae02;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.bottom {
+    height: 30%;
+    position: relative;
+    bottom: 0;
+}
+
+.road {
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-color: black;
+}
+
+.roadmark {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    background-color: #fff;
+    top: 45%;
+}
+
+.line1 {
+    left: 2%;
+}
+
+.line2 {
+    left: 20%;
+}
+
+.line3 {
+    left: 38%;
+}
+
+.line4 {
+    left: 56%;
+}
+
+.line5 {
+    left: 74%;
+}
+
+.line6 {
+    left: 92%;
+}
+
+.Lightpost {
+    height: 800px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    background-color: #c4c4c4;
+    border-radius: 50px 50px 0 0;
+}
+
+.lighthandle {
+    height: 300px;
+    width: 50px;
+    background-color: #c4c4c4;
+    border-radius: 50px;
+    position: absolute;
+    rotate: 100deg;
+    right: 160%;
+}
+
+.light {
+    height: 100px;
+    width: 50px;
+    background-color: #f8ae02;
+    border-radius: 50px;
+    box-shadow: 5px 5px 200px #f8ae02;
+    position: absolute;
+    bottom: 0;
+}
+
+.car>.top {
+    height: 800px;
+    width: 1000px;
+    clip-path: polygon(0% 100%, 0% 85%, 20% 85%, 30% 70%, 65% 70%, 70% 83%, 85% 83%, 85% 100%);
+    background-color: red;
+    position: absolute;
+    bottom: 60%;
+    right: 0%;
+}
+
+.car>.tire {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff 0% 40%, rgb(54, 52, 52) 40% 100%);
+    position: absolute;
+}
+
+.weel1 {
+    top: 26%;
+    right: 13%;
+}
+
+.weel2 {
+    top: 26%;
+    right: 5%;
+}
